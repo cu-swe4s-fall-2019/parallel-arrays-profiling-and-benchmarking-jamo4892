@@ -14,4 +14,4 @@ before_install:
 script:
     - pycodestyle data_viz.py
     - pycodestyle plot_gtex.py
-    - python plot_gtex.py --gene_readGTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_reads.acmg_59.gct.gz\?raw\=true --gene_file GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt --gene ACTA2 --group_type SMTS --out_file gene_plot.png
+    - python plot_gtex.py --gene_readGTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_reads.acmg_59.gct.gz?raw=true --gene_file GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt --gene ACTA2 --group_type SMTS --out_file gene_plot.png
